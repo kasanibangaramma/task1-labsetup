@@ -1,0 +1,53 @@
+# Cybersecurity Basics — Internship Task 1
+
+## 1. CIA Triad
+- **Confidentiality:** Only authorized users can access data.
+- **Integrity:** Data cannot be tampered or altered without detection.
+- **Availability:** Systems and data are accessible when needed.
+
+## 2. Common Threat Types
+- **Phishing:** Fake emails/websites trick users to give sensitive info.
+- **Malware:** Malicious software (virus, trojan, ransomware, spyware).
+- **DDoS:** Distributed Denial of Service — overload a system to make it unavailable.
+- **SQL Injection:** Inject malicious SQL to manipulate databases.
+- **Brute Force:** Attempting passwords repeatedly until success.
+- **Ransomware:** Encrypts data, demands ransom for decryption.
+
+## 3. Attack Vectors
+- **Social Engineering:** Trick humans into revealing sensitive info.
+- **Wireless Attacks:** Exploit weak Wi-Fi security.
+- **Insider Threats:** Attacks by employees or internal users.
+2️ Networking Basics (notes/networking_basics.md)
+markdown
+Copy code
+# Networking Basics — Internship Task 1
+
+## 1. OSI Model Layers
+1. Physical — cables, hardware
+2. Data Link — MAC addresses, switches
+3. Network — IP addressing, routing
+4. Transport — TCP/UDP, port numbers
+5. Session — manage connections
+6. Presentation — encryption, formatting
+7. Application — HTTP, FTP, DNS, email protocols
+
+## 2. TCP/IP Protocol Suite
+- IPv4 / IPv6 addressing
+- TCP (reliable, connection-oriented)
+- UDP (fast, connectionless)
+- ICMP (ping)
+
+## 3. DNS & HTTP/HTTPS
+- **DNS:** Converts domain names to IP addresses
+- **HTTP/HTTPS:** Web communication; HTTPS = encrypted
+
+## 4. IP Addressing, Subnetting, NAT
+- **IP Address:** Unique network identifier
+- **Subnetting:** Dividing IP space into smaller networks
+- **NAT:** Network Address Translation — allows private IPs to access public internet
+
+## 5. Common Commands (Linux/Kali)
+- `ifconfig` / `ip a` — check IPs
+- `ping <ip>` — test connectivity
+- `netstat -tuln` or `ss -tuln` — open ports
+- `traceroute <ip>` — route packets take
